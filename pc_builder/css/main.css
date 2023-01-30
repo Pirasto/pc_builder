@@ -1,0 +1,116 @@
+
+    /* enable absolute positioning */
+.searchdiv { 
+    position: relative; 
+}
+
+/* style icon */
+.searchdiv .searchicon {
+  position: absolute;
+  padding: 7px;
+}
+
+/* align icon */
+.left-addon .searchicon  { left:  2px;}
+.right-addon .searchicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+.row ul li a{
+    text-decoration: none !important;
+}
+.imgbi{
+    color: whitesmoke;
+    font-size: 5vh;
+}
+.hrfoot{
+    border: 2px solid white;
+    border-radius: 2px;
+    width: 15vh;
+}
+.rights{
+    width: 80%;
+}
+.footico{
+    color: white;
+    font-size: 2rem;
+}
+.footico:hover{
+    color: #1d3557 ;
+}
+#carimg{
+    max-height: 500px;
+}
+.iconav{
+    font-size: 20px !important;
+    text-align: bottom !important;
+}
+#tableborder1{
+    border-bottom: 2px solid #2d2d2d;
+}
+#tableborder2{
+    border-top: 2px solid #2d2d2d;
+}
+.slim{
+    max-width: 100px !important;
+}
+.foothover:hover{
+    color: #1d3557 !important;
+}
+.description{
+    text-align: justify !important;
+}
+.img-thumbnail{
+    max-width: 40%;
+    height: auto;
+}
+@keyframes blink {  
+    50% { color: transparent; }
+  }
+
+.blink_false {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    color: red;
+    background-color: rgb(247, 222, 222);
+    border: solid 2px red;
+    border-radius: 5px;
+    max-width: 150px;
+    font-size: 14px !important;
+    
+}
+.blink_true {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: 3;
+    color: green;
+    background-color: rgb(228, 255, 224);
+    border: solid 2px green;
+    border-radius: 5px;
+    max-width: 170px;
+    font-size: 14px !important;
+    
+}
+.nav-link:hover {
+    font-size: 110%; /* increase the text size by 10% */
+    color: white;
+}
+.tablicatest{
+    opacity: 20%;
+}
+.notlogged {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    color: red;
+}
+.vertical-line {
+    border-left: 1px solid #000;
+    height: 100%;
+    top: 0;
+    margin-left: -3px;
+}
